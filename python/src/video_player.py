@@ -5,7 +5,7 @@ from .video_library import VideoLibrary
 
 class VideoPlayer:
     """A class used to represent a Video Player."""
-
+    num_videos = 5
     def __init__(self):
         self._video_library = VideoLibrary()
 
@@ -15,6 +15,11 @@ class VideoPlayer:
 
     def show_all_videos(self):
         """Returns all videos."""
+        `Funny Dogs | funny_dogs_video_id |  
+        Amazing Cats | amazing_cats_video_id |  
+        Another Cat Video | another_cat_video_id |
+        Life at Google | life_at_google_video_id 
+        Video about nothing | nothing_video_id`
 
         print("show_all_videos needs implementation")
 
